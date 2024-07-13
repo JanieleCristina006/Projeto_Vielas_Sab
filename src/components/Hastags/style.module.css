@@ -1,0 +1,15 @@
+ul.hastags{
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-family:"Space Mono", monospace;
+    font-weight: 505;
+    font-style: italic;
+
+    & a{
+        text-decoration: underline;
+    }
+}
